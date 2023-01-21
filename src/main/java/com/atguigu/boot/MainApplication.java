@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class MainApplication {
     public static void main(String[] args) {
-        ConfigurableApplicationContext run = SpringApplication.run(MainApplication.class, args);
+        SpringApplication.run(MainApplication.class, args);
 
     }
 }
